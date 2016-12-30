@@ -1,0 +1,31 @@
+{
+  "name": "cssidreplace-loader",
+  "version": "1.0.1",
+  "description": "JSHOP本地开发时给cssId套上样式",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kingvid-chan/css-id-replace-loader.git"
+  },
+  "keywords": [
+    "jshop",
+    "cssId",
+    "relpace",
+    "loader",
+    "webpack",
+    "京东",
+    "前端"
+  ],
+  "author": "Kingvid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingvid-chan/css-id-replace-loader/issues"
+  },
+  "homepage": "https://github.com/kingvid-chan/css-id-replace-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.16"
+  }
+}

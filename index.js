@@ -1,0 +1,14 @@
+'use strict';
+var loaderUtils = require('loader-utils');
+
+module.exports = function(content) {
+  if (this.cacheable) { this.cacheable(); }
+  
+  var query = loaderUtils.parseQuery(this.query);
+  if (typeof query === "object" && query.regex && typeof query.sub === "string") {
+    var regex = new RegExp(query.regex, 'g');
+    content = content.replace(regex, query.sub);
+  }
+
+  return content;
+};
