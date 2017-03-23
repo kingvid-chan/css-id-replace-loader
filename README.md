@@ -61,6 +61,7 @@ webpack打包的时候给该模块css key添加一个随机唯一的数值生成
 ```
 
 <h2 align="center">用法</h2>
+
 cssidreplace-loader的作用就是在webpack打包时把css代码中的css key替换成css Id（即是把customHeader替换成customHeader-123456）。  
 可配置参数有两个：`regex`和`sub`，`regex`指待替换css key，`sub`指css Id，在webpack配置文件中代码如下：
 ```js
