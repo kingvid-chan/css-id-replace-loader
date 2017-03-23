@@ -1,7 +1,7 @@
 {
   "name": "cssidreplace-loader",
-  "version": "1.0.1",
-  "description": "JSHOP本地开发时给cssId套上样式",
+  "version": "1.0.6",
+  "description": "Another solution to CSS Module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,9 +15,7 @@
     "cssId",
     "relpace",
     "loader",
-    "webpack",
-    "京东",
-    "前端"
+    "webpack"
   ],
   "author": "Kingvid",
   "license": "ISC",
